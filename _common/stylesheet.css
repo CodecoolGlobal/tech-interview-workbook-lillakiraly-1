@@ -1,0 +1,181 @@
+/**** theme selector ****/
+
+.demo-theme-preview {
+  text-align: right;
+}
+.demo-theme-preview a {
+  padding-right: 10px;
+}
+.demo-theme-preview a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+/**** pagination ****/
+
+#docsify-pagination-container-upper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+#docsify-pagination-container-lower {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow: hidden;
+  margin: 5em 0 1em;
+  border-top: 1px solid rgba(0, 0, 0, 0.07);
+}
+#docsify-pagination-container-lower .pagination-item {
+  margin-top: 2.5em;
+}
+.pagination-item a,
+.pagination-item a:hover {
+  text-decoration: none;
+}
+.pagination-item a {
+  color: currentColor;
+}
+.pagination-item a:hover .pagination-item-title {
+  text-decoration: underline;
+}
+.pagination-item:not(:last-child) a .pagination-item-label,
+.pagination-item:not(:last-child) a .pagination-item-title {
+  opacity: 0.3;
+  transition: all 200ms;
+}
+.pagination-item:last-child .pagination-item-label,
+.pagination-item:not(:last-child) a:hover .pagination-item-label {
+  opacity: 0.6;
+}
+.pagination-item:not(:last-child) a:hover .pagination-item-title {
+  opacity: 1;
+}
+.pagination-item-label {
+  font-size: 0.8em;
+}
+.pagination-item-label > * {
+  line-height: 1;
+  vertical-align: middle;
+}
+.pagination-item-label svg {
+  height: 0.8em;
+  width: auto;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1px;
+}
+.pagination-item--next {
+  margin-left: auto;
+  text-align: right;
+}
+#docsify-pagination-container-upper .pagination-item--previous {
+  text-align: right;
+}
+#docsify-pagination-container-upper .pagination-item--next {
+  margin-left: 1.5em;
+  text-align: right;
+}
+
+.pagination-item--next svg {
+  margin-left: 0.5em;
+}
+.pagination-item--previous svg {
+  margin-right: 0.5em;
+}
+.pagination-item-title {
+  font-size: 1.6em;
+} 
+
+
+/**** sidebar ****/
+
+.sidebar-nav ul>li>p {
+ cursor: pointer;
+}
+.sidebar-nav ul>li>p:before {
+ font-family: FontAwesome;
+ display: inline-block;
+ width: 10px;
+ padding-right: 3px;
+ vertical-align: middle;
+ content: "\f107";
+}
+.sidebar-nav ul>li>p.closed:before {
+ content: "\f105";
+}
+.sidebar-nav>ul>li:first-child>p:before {
+ display: none;
+}
+.sidebar-nav .closed+ul {
+ display: none;
+}
+
+
+/**** quiz ****/
+
+#quiz-container {
+  position: relative;
+  min-height: 200px;
+  margin-top: 40px;
+}
+.quiz-slide {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.quiz-active-slide {
+  position: relative;
+  opacity: 1;
+  z-index: 2;
+}
+.quiz-question {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.quiz-answers {
+  margin-bottom: 20px;
+  text-align: left;
+  display: inline-block;
+}
+.quiz-answers label {
+  display: block;
+  margin-bottom: 10px;
+}
+#quiz-buttons {
+  position: relative;
+  z-index: 3;
+}
+#quiz-next {
+  margin-right: 1em;
+}
+#quiz-results {
+  margin-top: 1em;
+}
+
+/***** Youtube videos ******/
+
+.yt-iframe {
+    max-width: 700px;
+    margin: 0px auto;
+}
+
+.yt-iframe > div {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0px;
+}
+
+.yt-iframe iframe {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
