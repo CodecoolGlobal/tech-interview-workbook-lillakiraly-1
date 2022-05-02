@@ -9,7 +9,10 @@
 ##### Lists are used to store multiple items in a single variable. List items are ordered, changeable/mutable, and allow duplicate values. List items are indexed, the first item has index [0]. List methods: append() - adds an element at the end of the list, pop() - removes an element from the end of the list or from the specified index, reverse() - reverses the sorting order of the list
 
 #### What is the difference between a list/array and a set?
-#### What is the purpose and methods of a dictionary/map data structure?
+
+##### A set is a collection which is unordered, unchangeable*, and unindexed, and doesn't allow duplicate values. While list items are ordered, changeable/mutable, and allow duplicate values.
+
+#### !!!What is the purpose and methods of a dictionary/map data structure?
 
 ### Algorithms
 
