@@ -25,8 +25,27 @@
 ### Programming paradigms - procedural
 
 #### What is the call stack?
+
+##### At the most basic level, a call stack is a data structure that uses the Last In, First Out (LIFO) principle to temporarily store and manage function invocation (call).The call stack is primarily used for function invocation (call). Since the call stack is single, function(s) execution, is done, one at a time, from top to bottom. LIFO: When we say that the call stack, operates by the data structure principle of Last In, First Out, it means that the last function that gets pushed into the stack is the first to be pop out, when the function returns. In more detail: https://developer.mozilla.org/en-US/docs/Glossary/Call_stack , https://www.freecodecamp.org/news/understanding-the-javascript-call-stack-861e41ae61d4/
+##### ![image](https://user-images.githubusercontent.com/71545633/166297417-67251f59-cbf6-4f03-8c31-c5fe1b8e0972.png)
+
+
+
 #### What is “Stack overflow”?
+
+##### A stack overflow is a programming error when too much memory is used on the call stack. A stack overflow occurs for example when there is a recursive function (a function that calls itself) without an exit point. The browser/hosting environment has a maximum stack call that it can accomodate before throwing a stack error. 
+
 #### What are the main parts of a function?
+
+
+![Screenshot from 2022-05-02 19-49-28](https://user-images.githubusercontent.com/71545633/166298709-1619f9a3-0ecd-459a-bef2-a2013a558f25.png)
+
+##### def - (keyword) defines the function
+##### function name - to identify the function - preferably a verb, describing what the function will do  when it's called
+##### parameters (optional) - data that is passed into a function - inside function
+##### function body - one or more valid (Python) statements
+##### return (optional) - return a value from the function
+##### arguments (optional) - data that is passed into a function - a value given to a function when it's called
 
 ### Programming languages - Python  
 #### How do you use a dictionary in Python?
