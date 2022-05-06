@@ -73,6 +73,9 @@
 ### Debugging
 
 #### What techniques can you use while debugging a program in Python?
+
+##### 
+
 #### What does step over, step into and step out mean while using the debugger?
 #### How can you start to debug a program from a certain line using the debugger?
 
