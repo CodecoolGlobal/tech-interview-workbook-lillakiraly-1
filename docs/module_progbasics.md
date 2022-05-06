@@ -4,11 +4,11 @@
 
 ### Data structures
 
-#### What is the purpose of a list (array in some programming languages) data structure? Name some methods of it!
+#### ✅ What is the purpose of a list (array in some programming languages) data structure? Name some methods of it!
 
 ##### Lists are used to store multiple items in a single variable. List items are ordered, changeable/mutable, and allow duplicate values. List items are indexed, the first item has index [0]. List methods: append() - adds an element at the end of the list, pop() - removes an element from the end of the list or from the specified index, reverse() - reverses the sorting order of the list
 
-#### What is the difference between a list/array and a set?
+#### ✅ What is the difference between a list/array and a set?
 
 ##### A set is a collection which is unordered, unchangeable*, and unindexed, and doesn't allow duplicate values. While list items are ordered, changeable/mutable, and allow duplicate values.
 
@@ -24,18 +24,18 @@
 
 ### Programming paradigms - procedural
 
-#### What is the call stack?
+#### ✅ What is the call stack?
 
 ##### At the most basic level, a call stack is a data structure that uses the Last In, First Out (LIFO) principle to temporarily store and manage function invocation (call).The call stack is primarily used for function invocation (call). Since the call stack is single, function(s) execution, is done, one at a time, from top to bottom. LIFO: When we say that the call stack, operates by the data structure principle of Last In, First Out, it means that the last function that gets pushed into the stack is the first to be pop out, when the function returns. In more detail: https://developer.mozilla.org/en-US/docs/Glossary/Call_stack , https://www.freecodecamp.org/news/understanding-the-javascript-call-stack-861e41ae61d4/
 ##### ![image](https://user-images.githubusercontent.com/71545633/166297417-67251f59-cbf6-4f03-8c31-c5fe1b8e0972.png)
 
 
 
-#### What is “Stack overflow”?
+#### ✅ What is “Stack overflow”?
 
 ##### A stack overflow is a programming error when too much memory is used on the call stack. A stack overflow occurs for example when there is a recursive function (a function that calls itself) without an exit point. The browser/hosting environment has a maximum stack call that it can accomodate before throwing a stack error. 
 
-#### What are the main parts of a function?
+#### ✅ What are the main parts of a function?
 
 
 ![Screenshot from 2022-05-02 19-49-28](https://user-images.githubusercontent.com/71545633/166298709-1619f9a3-0ecd-459a-bef2-a2013a558f25.png)
