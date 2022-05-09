@@ -90,7 +90,7 @@
 
 #### ✅ How can you start to debug a program from a certain line using the debugger?
 
-##### Add a breakpoint, then start debugging (press Fn + F5)
+##### Add a breakpoint, then start debugging (press Fn + F5 -> Continue)
 
 ### Version control
 
