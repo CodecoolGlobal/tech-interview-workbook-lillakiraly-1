@@ -88,9 +88,9 @@
 
 ##### Step out: means that if you have Stepped in a function and now you want to skip seeing how the rest of the function is going to execute, you Step out and the function returns. Then, you go back to the next line, that is the line right after the function call.
 
+#### ✅ How can you start to debug a program from a certain line using the debugger?
 
-
-#### How can you start to debug a program from a certain line using the debugger?
+##### Add a breakpoint, then start debugging (press Fn + F5)
 
 ### Version control
 
