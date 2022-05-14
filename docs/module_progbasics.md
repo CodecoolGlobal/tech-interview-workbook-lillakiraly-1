@@ -166,7 +166,7 @@ print(str3)  --> prints 'applebottomjeans'
 
 ```f"{variable}"```
 
-Also called formatted string literals, the f-string is a new and improved way to format strings in Python. 
+Also called formatted string literals. 
 
 It is a string literal that has an f at the beginning and curly braces containing expressions that will be replaced with their values. 
 
