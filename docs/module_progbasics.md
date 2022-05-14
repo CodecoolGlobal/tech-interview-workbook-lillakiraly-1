@@ -48,7 +48,7 @@
 ##### arguments (optional) - data that is passed into a function - a value given to a function when it's called
 
 ### Programming languages - Python  
-#### white_check_mark How do you use a dictionary in Python?
+#### ✅ How do you use a dictionary in Python?
 
 Dictionaries are used to store data values in key:value pairs.
 A dictionary is a collection which is ordered* (since Python 3.7), changeable and do not allow duplicates.
@@ -63,7 +63,7 @@ print(thisdict["brand"])
 ```
 --> will print: Ford
 
-#### white_check_mark What does it mean that an object is immutable in Python?
+#### ✅ What does it mean that an object is immutable in Python?
 
 Immutable Objects : These are of in-built types like int, float, bool, string, unicode, tuple. An immutable object can’t be changed after it is created.
 
