@@ -50,9 +50,9 @@
 ### Programming languages - Python  
 #### How do you use a dictionary in Python?
 
-##### Dictionaries are used to store data values in key:value pairs.
-##### A dictionary is a collection which is ordered* (since Python 3.7), changeable and do not allow duplicates.
-##### Dictionary items are presented in key:value pairs, and can be referred to by using the key name.
+Dictionaries are used to store data values in key:value pairs.
+A dictionary is a collection which is ordered* (since Python 3.7), changeable and do not allow duplicates.
+Dictionary items are presented in key:value pairs, and can be referred to by using the key name.
 ```Python
 thisdict = {
   "brand": "Ford",
@@ -64,6 +64,15 @@ print(thisdict["brand"])
 --> will print: Ford
 
 #### What does it mean that an object is immutable in Python?
+
+Immutable Objects : These are of in-built types like int, float, bool, string, unicode, tuple. An immutable object can’t be changed after it is created.
+
+Immutable objects are quicker to access and are expensive to change because it involves the creation of a copy.
+Whereas mutable objects are easy to change.
+
+More details:  Whenever an object is instantiated, it is assigned a unique object id. The type of the object is defined at the runtime and it can’t be changed afterwards. However, it’s state can be changed if it is a mutable object. To summarise the difference, mutable objects can change their state or contents and immutable objects can’t change their state or content.
+
+
 #### What is conditional expression in Python?
 #### What are different types of arguments in Python?
 #### What is variable shadowing? (context: variable scope)
