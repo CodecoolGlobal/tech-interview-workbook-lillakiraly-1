@@ -132,9 +132,36 @@ Using a slice operator does not change the list in-place but creates a new objec
 
 ```list[::-1]``` -- Reverses the list.
 
-#### What arithmetic operators (+,*,-,/) can be used on lists in Python? What do they do?
-#### What is the purpose of the in and not in membership operators in Python?
-#### What does the + operator mean when used with strings in Python?
+#### ✅ What arithmetic operators (+,*,-,/) can be used on lists in Python? What do they do?
+
+The + operator concatenates two lists. In other words, it appends one list's elements to another's.
+
+The * operator multiplies a list's elements by an integer.
+
+The - and / operators are unsupported and result in an error.
+
+#### ✅ What is the purpose of the in and not in membership operators in Python?
+
+Membership operators are operators used to validate the membership of a value. 
+
+It tests for membership in a sequence (such as strings, lists, or tuples).
+
+in: Evaluates to True if the specified object exists in the specified sequence, evaluates to False otherwise.
+
+not in: Reverse of the in operator.
+
+#### ✅ What does the + operator mean when used with strings in Python?
+
+The + operator concatenates two strings.
+```Python
+str1 = 'apple'
+str2 = 'bottomjeans'
+
+str3 = str1 + str2
+
+print(str3)  --> prints 'applebottomjeans'
+```
+
 #### Explain f strings in Python?
 #### Name 4 iterable types in Python!
 #### What is the difference between list/set/dictionary comprehension and a generator expression in Python?
