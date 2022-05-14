@@ -49,6 +49,19 @@
 
 ### Programming languages - Python  
 #### How do you use a dictionary in Python?
+
+##### Dictionaries are used to store data values in key:value pairs.
+##### A dictionary is a collection which is ordered* (since Python 3.7), changeable and do not allow duplicates.
+##### Dictionary items are presented in key:value pairs, and can be referred to by using the key name.
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict["brand"])
+
+--> will print: Ford
+
 #### What does it mean that an object is immutable in Python?
 #### What is conditional expression in Python?
 #### What are different types of arguments in Python?
