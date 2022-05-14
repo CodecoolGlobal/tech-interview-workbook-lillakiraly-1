@@ -76,13 +76,22 @@ More details:  Whenever an object is instantiated, it is assigned a unique objec
 #### ✅ What is conditional expression in Python?
 
 Condition: An expression whose value is used as a condition. 
-Expression1: An expression which is executed if the condition evaluates to a truthy value (one which equals or can be converted to true). 
+
+Expression1: An expression which is executed if the condition evaluates to a truthy value (one which equals or can be converted to true).
+
 Expression2: An expression which is executed if the condition is falsy (that is, has a value which can be converted to false).
 ```Python
 <expression1> if <condition> else <expression2>
 ```
-#### What are different types of arguments in Python?
-#### What is variable shadowing? (context: variable scope)
+#### What are different types of arguments in Python? !!!Function, command line???
+#### ✅ What is variable shadowing? (context: variable scope)
+
+Variable shadowing occurs when a variable defined in the inner scope has the same name as a variable in the outer scope.
+In the inner scope, both variables’ scope overlap.
+![image](https://user-images.githubusercontent.com/71545633/168414475-4e441922-21e9-4698-8d5d-69ff271da63d.png)
+
+It's defined as when a variable "hides" another variable with the same name. So, when variable shadowing occurs, there are two or more variables with the same name, and their definitions are dependent on their scope (meaning their values may be different depending upon scope).
+
 #### What can happen if you try to delete/drop/add an item from a List, while you are iterating over it in Python?
 #### What is the "golden rule" of variable scoping in Python (context: LEGB)? What is the lifetime of variables?
 #### If you need to access the iterator variable after a for loop, how would you do it in Python?
