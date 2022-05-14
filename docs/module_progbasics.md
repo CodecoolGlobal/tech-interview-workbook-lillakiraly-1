@@ -203,7 +203,11 @@ printing() #runs smoothly
 ```
 
 #### What does unpacking mean in Python?
-#### What happens when you try to assign the result of a function which has no return statement to a variable in Python?
+#### ✅ What happens when you try to assign the result of a function which has no return statement to a variable in Python?
+
+```None``` is assigned as a result.
+
+If there is no return statement (or just a return without an argument), an implicit ```return None``` is added to the end of a function.
 
 ## Software engineering
 
