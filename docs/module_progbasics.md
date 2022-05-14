@@ -53,7 +53,7 @@
 ##### Dictionaries are used to store data values in key:value pairs.
 ##### A dictionary is a collection which is ordered* (since Python 3.7), changeable and do not allow duplicates.
 ##### Dictionary items are presented in key:value pairs, and can be referred to by using the key name.
-Python```
+```Python
 thisdict = {
   "brand": "Ford",
   "model": "Mustang",
