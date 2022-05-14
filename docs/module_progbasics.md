@@ -235,7 +235,14 @@ If there is no return statement (or just a return without an argument), an impli
 
 ### Version control
 
-#### What are the advantages of using a version control system?
+#### ✅ What are the advantages of using a version control system?
+You can record and follow every change throughout the project. Multiple people can work on the same code at the same time. If something goes wrong, you can always go back to a previous version.
+
+- Collaboration
+- Storing Versions (Properly)
+- Restoring Previous Versions
+- Understanding What Happened (commits)
+- Backup
 #### What is the difference between the working directory, the staging area and the repository in git?
 #### What are remote repositories in git?
 #### Why does a merge conflict occur?
