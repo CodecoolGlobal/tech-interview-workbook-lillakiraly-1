@@ -126,11 +126,11 @@ Lists can contain any built-in data type.
 
 Using a slice operator does not change the list in-place but creates a new object.
 
-```Python list[start:end:step]``` -- Creates a new list from the elements between start and end(the end index is non-inclusive).
+```list[start:end:step]``` -- Creates a new list from the elements between start and end(the end index is non-inclusive).
 
-```Python list[:]``` -- Creates a new (independent) copy of the list. Modifying this list won't affect the original list.
+```list[:]``` -- Creates a new (independent) copy of the list. Modifying this list won't affect the original list.
 
-```Python list[::-1]``` -- Reverses the list.
+```list[::-1]``` -- Reverses the list.
 
 #### What arithmetic operators (+,*,-,/) can be used on lists in Python? What do they do?
 #### What is the purpose of the in and not in membership operators in Python?
