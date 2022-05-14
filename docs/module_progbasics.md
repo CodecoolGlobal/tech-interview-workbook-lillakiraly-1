@@ -177,9 +177,31 @@ num = 77
 print(f'Usher sings "{str1}" {num} times.')
 ```
 
-#### Name 4 iterable types in Python!
+#### ✅ Name 4 iterable types in Python!
+
+String
+
+List
+
+Tuple
+
+Dictionary
+
+
 #### What is the difference between list/set/dictionary comprehension and a generator expression in Python?
-#### Does the order of the function definitions matter in Python? Why?
+#### ✅ Does the order of the function definitions matter in Python? Why?
+
+It won't change the result of the program. It can help the understanding of a code if it's ordered well. The calling of the functions is what matters. -> can't call a function before it's defined
+
+```Python
+printing() #will result in NameError
+
+def printing():
+    print('Hey there')
+
+printing() #runs smoothly
+```
+
 #### What does unpacking mean in Python?
 #### What happens when you try to assign the result of a function which has no return statement to a variable in Python?
 
