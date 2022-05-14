@@ -73,7 +73,14 @@ Whereas mutable objects are easy to change.
 More details:  Whenever an object is instantiated, it is assigned a unique object id. The type of the object is defined at the runtime and it can’t be changed afterwards. However, it’s state can be changed if it is a mutable object. To summarise the difference, mutable objects can change their state or contents and immutable objects can’t change their state or content.
 
 
-#### What is conditional expression in Python?
+#### ✅ What is conditional expression in Python?
+
+Condition: An expression whose value is used as a condition. 
+Expression1: An expression which is executed if the condition evaluates to a truthy value (one which equals or can be converted to true). 
+Expression2: An expression which is executed if the condition is falsy (that is, has a value which can be converted to false).
+```Python
+<expression1> if <condition> else <expression2>
+```
 #### What are different types of arguments in Python?
 #### What is variable shadowing? (context: variable scope)
 #### What can happen if you try to delete/drop/add an item from a List, while you are iterating over it in Python?
