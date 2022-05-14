@@ -162,7 +162,21 @@ str3 = str1 + str2
 print(str3)  --> prints 'applebottomjeans'
 ```
 
-#### Explain f strings in Python?
+#### ✅ Explain f strings in Python?
+
+```f"{variable}"```
+
+Also called formatted string literals, the f-string is a new and improved way to format strings in Python. 
+
+It is a string literal that has an f at the beginning and curly braces containing expressions that will be replaced with their values. 
+
+```Python
+str1 = 'Yeah'
+num = 77
+
+print(f'Usher sings "{str1}" {num} times.')
+```
+
 #### Name 4 iterable types in Python!
 #### What is the difference between list/set/dictionary comprehension and a generator expression in Python?
 #### Does the order of the function definitions matter in Python? Why?
