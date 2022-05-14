@@ -87,16 +87,49 @@ Expression2: An expression which is executed if the condition is falsy (that is,
 #### ✅ What is variable shadowing? (context: variable scope)
 
 Variable shadowing occurs when a variable defined in the inner scope has the same name as a variable in the outer scope.
+
 In the inner scope, both variables’ scope overlap.
 ![image](https://user-images.githubusercontent.com/71545633/168414475-4e441922-21e9-4698-8d5d-69ff271da63d.png)
 
 It's defined as when a variable "hides" another variable with the same name. So, when variable shadowing occurs, there are two or more variables with the same name, and their definitions are dependent on their scope (meaning their values may be different depending upon scope).
 
-#### What can happen if you try to delete/drop/add an item from a List, while you are iterating over it in Python?
-#### What is the "golden rule" of variable scoping in Python (context: LEGB)? What is the lifetime of variables?
-#### If you need to access the iterator variable after a for loop, how would you do it in Python?
-#### What type of elements can a list contain in Python?
-#### What is slice operator in Python and how to use?
+#### ✅ What can happen if you try to delete/drop/add an item from a List, while you are iterating over it in Python?
+
+If you delete/drop an item from a list while iterating over it, the results will be inaccurate. Due to the changed contents (indices), the loop will skip some elements and/or end prematurely. - might result in IndexError
+
+If we add to the list while iterating over it, it could result in an infinite loop.
+
+
+#### ✅ What is the "golden rule" of variable scoping in Python (context: LEGB)? What is the lifetime of variables?
+
+LEGB stands for:
+
+Local: Defined inside function/class.
+Enclosed: Defined inside enclosing functions (nested functions concept).
+Global: Defined at the uppermost level.
+Built-in: Reserved names in Python built-in modules.
+LEGB is the hierarchy in which python looks for variables (and functions as well).
+
+Variables have different lifetimes, depending on their definition. E.g. a local variable exists as long as the function (in which it is defined) is being executed.
+
+The golden rule means that variables should only be accessible where they are used. Avoiding using global variables as much as possible is standard.
+
+#### ✅ If you need to access the iterator variable after a for loop, how would you do it in Python?
+
+I can simply use the iterator variable after the loop has ended.
+
+#### ✅ What type of elements can a list contain in Python?
+
+Lists can contain any built-in data type.
+
+#### ✅ What is slice operator in Python and how to use?
+
+Using a slice operator does not change the list in-place but creates a new object.
+
+list[start:end:step] -- Creates a new list from the elements between start and end(the end index is non-inclusive).
+list[:] -- Creates a new (independent) copy of the list. Modifying this list won't affect the original list.
+list[::-1] -- Reverses the list.
+
 #### What arithmetic operators (+,*,-,/) can be used on lists in Python? What do they do?
 #### What is the purpose of the in and not in membership operators in Python?
 #### What does the + operator mean when used with strings in Python?
