@@ -303,6 +303,7 @@ More details:
 #### What does root means in a Linux environment?
 #### ✅ How do you access your personal files in Linux?
 ```cd home/<username>``` in terminal
+
 It shows as ```~/```
 
 #### How can you install an application in Linux?
