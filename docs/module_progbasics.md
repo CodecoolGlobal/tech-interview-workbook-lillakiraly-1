@@ -273,7 +273,7 @@ You can record and follow every change throughout the project. Multiple people c
 
 ### Unix
 
-#### What is UNIX and what is Linux?
+#### ✅ What is UNIX and what is Linux?
 
 Unix is a is a multiuser and multitasking computer operating system. Nowadays UNIX is more like a trademark which means the family of operating systems. Linux is an open source operating system. Today there are a lots of versions of Linux and we call them distributions.
 
@@ -283,7 +283,7 @@ Usage:
 
 Unix: The UNIX can be used in internet servers, workstations, and PCs. Linux: Everyone. From home users to developers and computer enthusiasts alike. Linux OS can be installed on various types of devices like mobile, tablet computers.
 
-#### What do we call the shell in Linux?
+#### ✅ What do we call the shell in Linux?
 
 On most Linux systems a program called bash (which stands for Bourne Again SHell, an enhanced version of the original Unix shell program, sh , written by Steve Bourne) acts as the shell program.
 
@@ -301,7 +301,10 @@ More details:
 
 
 #### What does root means in a Linux environment?
-#### How do you access your personal files in Linux?
+#### ✅ How do you access your personal files in Linux?
+```cd home/<username>``` in terminal
+It shows as ```~/```
+
 #### How can you install an application in Linux?
 #### What is package management in Linux, what are repositories?
 #### How do you navigate in the filesystem with the command line?
