@@ -300,14 +300,36 @@ More details:
 
 
 
-#### What does root means in a Linux environment?
+#### ✅ What does root means in a Linux environment?
+
+Root either means Root Directory, or in the case of privileges, it means administrator, or complete privilege with access to all commands in the OS.
+
+More details: "root" is the user name or account that by default has access to all commands and files on a Linux or other Unix-like operating system. It is also referred to as the root account, root user and the superuser. Basically the "System Administrator" of Linux, from Windows.
+
 #### ✅ How do you access your personal files in Linux?
+
+Through the file browser of by the terminal with the "cd" command.
+
 ```cd home/<username>``` in terminal
 
 It shows as ```~/```
 
-#### How can you install an application in Linux?
-#### What is package management in Linux, what are repositories?
+#### ✅ How can you install an application in Linux?
+
+You can use the software center (Ubuntu) or you can use commands in the terminal as well:
+
+```sudo apt-get install <package name> ```
+
+#### ✅ What is package management in Linux, what are repositories?
+
+Package management is a method of installing, updating, removing, and keeping track of software updates from specific repositories (repos) in the Linux system.
+
+DPKG: *Debian Package Management System. Installed in Debian based distributions. 
+APT: A very popular, free, powerful package manager. Also installed in Debian based distributions. - works with Ubuntu’s Advanced Packaging Tool (APT) 
+
+
+A Linux repository is a storage location from which your system retrieves and installs OS updates and applications.
+
 #### How do you navigate in the filesystem with the command line?
 #### What does the following commands do: mkdir, rm, cat, cp, touch?
 #### How can you look up what does a command do in Linux if you have no internet connection?
