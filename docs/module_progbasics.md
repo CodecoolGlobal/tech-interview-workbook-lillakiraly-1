@@ -274,7 +274,32 @@ You can record and follow every change throughout the project. Multiple people c
 ### Unix
 
 #### What is UNIX and what is Linux?
+
+Unix is a is a multiuser and multitasking computer operating system. Nowadays UNIX is more like a trademark which means the family of operating systems. Linux is an open source operating system. Today there are a lots of versions of Linux and we call them distributions.
+
+Both of them are operating systems, but UNIX was earlier, it is running in CLI(Command Line Interface, meaning there is "only a command line, no mouse or graphical elements, at all) Linux is one or more steps forward, it enables applications and the users to access the devices on the computer to perform some specific function.
+
+Usage:
+
+Unix: The UNIX can be used in internet servers, workstations, and PCs. Linux: Everyone. From home users to developers and computer enthusiasts alike. Linux OS can be installed on various types of devices like mobile, tablet computers.
+
 #### What do we call the shell in Linux?
+
+On most Linux systems a program called bash (which stands for Bourne Again SHell, an enhanced version of the original Unix shell program, sh , written by Steve Bourne) acts as the shell program.
+
+More details: 
+- The shell is a program that takes operations from the user and gives it to the OS.
+
+- A shell provides a command line user interface for Unix-like operating systems. The shell is both an interactive command language and a scripting language, and is used by the operating system to control the execution of the system using shell scripts.
+
+- GNU BASH / Bash (Bourne Again Shell). It's not part of the kernel, but it uses it to run itself. It is also called simply the terminal.
+
+- Bash is a free Unix shell and command language. It is the default login shell for most Linux distros and macOS (up until Mojave).
+
+- Bash is a command processor that runs in a text window where the user types commands that cause actions. Bash can also read and execute commands from a file (shell script).
+
+
+
 #### What does root means in a Linux environment?
 #### How do you access your personal files in Linux?
 #### How can you install an application in Linux?
