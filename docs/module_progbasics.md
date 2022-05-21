@@ -353,7 +353,19 @@ A Linux repository is a storage location from which your system retrieves and in
 #### ✅ How can you look up what does a command do in Linux if you have no internet connection?
 
 ```man <command name>```
+
 ```<command name> --help```
 
-#### What does the following commands do: head, tail, more, less?
+#### ✅ What does the following commands do: head, tail, more, less?
+
+```head```:  Print the first 10 lines of a file to standard output.
+
+```tail```:  Print the last 10 lines of a file to standard output.
+
+```more```:  View one screenful of text of a file at a time.
+
+```less```:  Similar to more, but faster, and you can navigate through the file. Better for large files.
+
 #### How do you download a file from internet using the terminal?
+
+```wget <URL>```
