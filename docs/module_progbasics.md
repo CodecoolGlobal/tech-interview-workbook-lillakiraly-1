@@ -331,6 +331,13 @@ APT: A very popular, free, powerful package manager. Also installed in Debian ba
 A Linux repository is a storage location from which your system retrieves and installs OS updates and applications.
 
 #### How do you navigate in the filesystem with the command line?
+
+```pwd```: Print working directory.
+
+```ls```: List items.
+
+```cd```: Change directory.
+
 #### What does the following commands do: mkdir, rm, cat, cp, touch?
 #### How can you look up what does a command do in Linux if you have no internet connection?
 #### What does the following commands do: head, tail, more, less?
