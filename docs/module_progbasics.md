@@ -260,14 +260,33 @@ You can record and follow every change throughout the project. Multiple people c
 ### Error handling
 
 #### What is exception handling?
-#### What are the basics of exception handling in Python?
+#### ✅ What are the basics of exception handling in Python?
+
+We use try-except blocks.
+
+If the try block runs to failure, it jumps to the except block rather than crashing. The except block contains the logic that deals with the exception.
+
 #### In which case should we catch an exception? Why?
-#### What can/should we do with an exception in the ‘except’ block?
+#### ✅ What can/should we do with an exception in the ‘except’ block?
+
+We should tell the program how to continue executing our code. E.g. to print a meaningful error message, or quit the programme if needed it.
+
 #### What does the else and finally statement do in a try-except block in Python?
+
+else block: Will be executed only if the code inside the try block doesn’t generate an exception.
+
+finally block: Code is always executed, whether the program executed properly or it raised an exception.
+
 
 ## Software Development Methodologies
 
-#### What is the main goal of a retrospective meeting?
+#### ✅ What is the main goal of a retrospective meeting?
+
+A retrospective should take place after a peer review and before the next sprint planning. It is an opportunity for the team (Scrum Team?) to inspect itself and create a plan (with action items) for improvements to be enacted during the next sprint.
+
+- What went well in the sprint?
+- What could be improved?
+- What will we commit to improve in the next sprint? Action items...
 
 ## Programming environment
 
