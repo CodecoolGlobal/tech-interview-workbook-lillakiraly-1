@@ -366,6 +366,6 @@ A Linux repository is a storage location from which your system retrieves and in
 
 ```less```:  Similar to more, but faster, and you can navigate through the file. Better for large files.
 
-#### How do you download a file from internet using the terminal?
+#### ✅ How do you download a file from internet using the terminal?
 
 ```wget <URL>```
