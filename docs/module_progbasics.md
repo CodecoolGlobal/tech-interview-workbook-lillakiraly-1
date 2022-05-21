@@ -350,6 +350,10 @@ A Linux repository is a storage location from which your system retrieves and in
 
 ```touch```:  Create, change, and modify timestamps of a file
 
-#### How can you look up what does a command do in Linux if you have no internet connection?
+#### ✅ How can you look up what does a command do in Linux if you have no internet connection?
+
+```man <command name>```
+```<command name> --help```
+
 #### What does the following commands do: head, tail, more, less?
 #### How do you download a file from internet using the terminal?
