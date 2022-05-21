@@ -6,11 +6,11 @@
 
 #### ✅ What is the purpose of a list (array in some programming languages) data structure? Name some methods of it!
 
-##### Lists are used to store multiple items in a single variable. List items are ordered, changeable/mutable, and allow duplicate values. List items are indexed, the first item has index [0]. List methods: append() - adds an element at the end of the list, pop() - removes an element from the end of the list or from the specified index, reverse() - reverses the sorting order of the list
+Lists are used to store multiple items in a single variable. List items are ordered, changeable/mutable, and allow duplicate values. List items are indexed, the first item has index [0]. List methods: append() - adds an element at the end of the list, pop() - removes an element from the end of the list or from the specified index, reverse() - reverses the sorting order of the list
 
 #### ✅ What is the difference between a list/array and a set?
 
-##### A set is a collection which is unordered, unchangeable*, and unindexed, and doesn't allow duplicate values. While list items are ordered, changeable/mutable, and allow duplicate values.
+A set is a collection which is unordered, unchangeable*, and unindexed, and doesn't allow duplicate values. While list items are ordered, changeable/mutable, and allow duplicate values.
 
 #### !!!What is the purpose and methods of a dictionary/map data structure?
 
@@ -26,26 +26,33 @@
 
 #### ✅ What is the call stack?
 
-##### At the most basic level, a call stack is a data structure that uses the Last In, First Out (LIFO) principle to temporarily store and manage function invocation (call).The call stack is primarily used for function invocation (call). Since the call stack is single, function(s) execution, is done, one at a time, from top to bottom. LIFO: When we say that the call stack, operates by the data structure principle of Last In, First Out, it means that the last function that gets pushed into the stack is the first to be pop out, when the function returns. In more detail: https://developer.mozilla.org/en-US/docs/Glossary/Call_stack , https://www.freecodecamp.org/news/understanding-the-javascript-call-stack-861e41ae61d4/
-##### ![image](https://user-images.githubusercontent.com/71545633/166297417-67251f59-cbf6-4f03-8c31-c5fe1b8e0972.png)
+At the most basic level, a call stack is a data structure that uses the Last In, First Out (LIFO) principle to temporarily store and manage function invocation (call).The call stack is primarily used for function invocation (call). Since the call stack is single, function(s) execution, is done, one at a time, from top to bottom. LIFO: When we say that the call stack, operates by the data structure principle of Last In, First Out, it means that the last function that gets pushed into the stack is the first to be pop out, when the function returns. In more detail: https://developer.mozilla.org/en-US/docs/Glossary/Call_stack , https://www.freecodecamp.org/news/understanding-the-javascript-call-stack-861e41ae61d4/
+
+
+![image](https://user-images.githubusercontent.com/71545633/166297417-67251f59-cbf6-4f03-8c31-c5fe1b8e0972.png)
 
 
 
 #### ✅ What is “Stack overflow”?
 
-##### A stack overflow is a programming error when too much memory is used on the call stack. A stack overflow occurs for example when there is a recursive function (a function that calls itself) without an exit point. The browser/hosting environment has a maximum stack call that it can accomodate before throwing a stack error. 
+A stack overflow is a programming error when too much memory is used on the call stack. A stack overflow occurs for example when there is a recursive function (a function that calls itself) without an exit point. The browser/hosting environment has a maximum stack call that it can accomodate before throwing a stack error. 
 
 #### ✅ What are the main parts of a function?
 
 
 ![Screenshot from 2022-05-02 19-49-28](https://user-images.githubusercontent.com/71545633/166298709-1619f9a3-0ecd-459a-bef2-a2013a558f25.png)
 
-##### def - (keyword) defines the function
-##### function name - to identify the function - preferably a verb, describing what the function will do  when it's called
-##### parameters (optional) - data that is passed into a function - inside function
-##### function body - one or more valid (Python) statements
-##### return (optional) - return a value from the function
-##### arguments (optional) - data that is passed into a function - a value given to a function when it's called
+def - (keyword) defines the function
+
+function name - to identify the function - preferably a verb, describing what the function will do  when it's called
+
+parameters (optional) - data that is passed into a function - inside function
+
+function body - one or more valid (Python) statements
+
+return (optional) - return a value from the function
+
+arguments (optional) - data that is passed into a function - a value given to a function when it's called
 
 ### Programming languages - Python  
 #### ✅ How do you use a dictionary in Python?
@@ -215,27 +222,28 @@ If there is no return statement (or just a return without an argument), an impli
 
 #### ✅ What techniques can you use while debugging a program in Python?
 
-##### Asking other developers/mentors
-##### Using print() statements
-##### Adding test cases
-##### Using the IDE's debugging tools
-##### Rubberduck
+-  Asking other developers/mentors
+-  Using print() statements
+-  Adding test cases
+-  Using the IDE's debugging tools
+-  Rubberduck
 
 #### ✅  What does step over, step into and step out mean while using the debugger?
 
-##### Step in: means that if there is a function call, it goes inside the function and you can see how the function is executing line by line till it returns and you go back to the next line right after the function call.
+ Step in: means that if there is a function call, it goes inside the function and you can see how the function is executing line by line till it returns and you go back to the next line right after the function call.
 
-##### Step over: means that if there is a function call, it just executes it like a black box and returns the result, but you cannot see how the function was executed.
+ Step over: means that if there is a function call, it just executes it like a black box and returns the result, but you cannot see how the function was executed.
 
-##### Step out: means that if you have Stepped in a function and now you want to skip seeing how the rest of the function is going to execute, you Step out and the function returns. Then, you go back to the next line, that is the line right after the function call.
+ Step out: means that if you have Stepped in a function and now you want to skip seeing how the rest of the function is going to execute, you Step out and the function returns. Then, you go back to the next line, that is the line right after the function call.
 
 #### ✅ How can you start to debug a program from a certain line using the debugger?
 
-##### Add a breakpoint, then start debugging (press Fn + F5 -> Continue)
+Add a breakpoint, then start debugging (press Fn + F5 -> Continue)
 
 ### Version control
 
 #### ✅ What are the advantages of using a version control system?
+
 You can record and follow every change throughout the project. Multiple people can work on the same code at the same time. If something goes wrong, you can always go back to a previous version.
 
 - Collaboration
@@ -243,35 +251,73 @@ You can record and follow every change throughout the project. Multiple people c
 - Restoring Previous Versions
 - Understanding What Happened (commits)
 - Backup
+
 #### What is the difference between the working directory, the staging area and the repository in git?
-#### What are remote repositories in git?
-#### Why does a merge conflict occur?
-#### Through what series of commands could you put a new file into a remote repository connected to your existing local repository?
+
+
+
+#### ✅ What are remote repositories in git?
+
+Remote repositories are versions of your project that are hosted on the Internet or network somewhere. You can have several of them, each of which generally is either read-only or read/write for you.
+
+#### ✅ Why does a merge conflict occur?
+
+A merge conflict is an event that takes place when Git is unable to automatically resolve differences in code between two commits.
+
+A conflict arises when two separate branches have made edits to the same line in a file, or when a file has been deleted in one branch but edited in the other.
+
+#### ✅ Through what series of commands could you put a new file into a remote repository connected to your existing local repository?
+
+1. ```mv``` - move file to that repo
+2. ```git add``` - add to repo
+3. ```git commit```
+4. ```git push```
+
 #### What does it mean atomic commits and descriptive commit messages?
-#### What’s the difference between git and GitHub?
+#### ✅ What’s the difference between git and GitHub?
+
+Git is a distributed version control tool that can manage a development project's source code history, while GitHub is a cloud based platform built around the Git tool.
+
+More details:
+Git (global information tracker):
+
+- A version control system used for tracking changes in source code during software development.
+- Emphasis on speed, data integrity and support for distributed, non-linear workflows.
+- Every change, or commit, has a unique ID (or hash) linked to its parent. Furthermore, you can create branches, which have a different history than your master branch, with their own commits; these can then be merged back into the master.
+
+Github is a website used for hosting git repositories in the cloud (via the git protocol).
 
 ## Software design
 
 ### Clean code
 
-#### What does clean code mean?
+#### ✅ What does clean code mean?
+
+Code is clean if it can be understood easily – by everyone on the team. Clean code can be read and enhanced by a developer other than its original author. With understandability comes readability, changeability, extensibility and maintainability.
+
 #### What steps do we usually do during a clean code refactoring?
 
 ### Error handling
 
-#### What is exception handling?
+#### ✅ What is exception handling?
+
+An exception is an error that happens during execution of a program. When that error occurs, Python generates an exception that can be handled, which avoids your program to crash.
+
 #### ✅ What are the basics of exception handling in Python?
 
 We use try-except blocks.
 
 If the try block runs to failure, it jumps to the except block rather than crashing. The except block contains the logic that deals with the exception.
 
-#### In which case should we catch an exception? Why?
+#### ✅ In which case should we catch an exception? Why?
+
+We should catch only well defined, foreseeable exceptions to maintain flow control. Defining broader exceptions may cause the program to not work as expected.
+
 #### ✅ What can/should we do with an exception in the ‘except’ block?
 
 We should tell the program how to continue executing our code. E.g. to print a meaningful error message, or quit the programme if needed it.
 
-#### What does the else and finally statement do in a try-except block in Python?
+#### ✅ What does the else and finally statement do in a try-except block in Python?
 
 else block: Will be executed only if the code inside the try block doesn’t generate an exception.
 
