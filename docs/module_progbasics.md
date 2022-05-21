@@ -330,15 +330,26 @@ APT: A very popular, free, powerful package manager. Also installed in Debian ba
 
 A Linux repository is a storage location from which your system retrieves and installs OS updates and applications.
 
-#### How do you navigate in the filesystem with the command line?
+#### ✅ How do you navigate in the filesystem with the command line?
 
-```pwd```: Print working directory.
+```pwd```:  Print working directory.
 
-```ls```: List items.
+```ls```:  List items.
 
-```cd```: Change directory.
+```cd```:  Change directory.
 
-#### What does the following commands do: mkdir, rm, cat, cp, touch?
+#### ✅ What does the following commands do: mkdir, rm, cat, cp, touch?
+
+```mkdir```:  Create/make new directory
+
+```rm```:  Delete file or directory
+
+```cat```:  Open file - reads data and gives its content as output
+
+```cp```:  Copy file or directory
+
+```touch```:  Create, change, and modify timestamps of a file
+
 #### How can you look up what does a command do in Linux if you have no internet connection?
 #### What does the following commands do: head, tail, more, less?
 #### How do you download a file from internet using the terminal?
