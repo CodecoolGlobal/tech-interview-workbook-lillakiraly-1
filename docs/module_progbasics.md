@@ -202,7 +202,44 @@ Tuple
 Dictionary
 
 
-#### What is the difference between list/set/dictionary comprehension and a generator expression in Python?
+#### ✅ What is the difference between list/set/dictionary comprehension and a generator expression in Python?
+
+The major difference between a list comprehension and a generator expression is that a list comprehension produces the entire list while the generator expression produces one item at a time.
+
+Generator expression:
+- Memory efficient: A normal function to return a sequence will create the entire sequence in memory before returning the result. This is an overkill, if the number of items in the sequence is very large. Generator implementation of such sequences is memory friendly and is preferred since it only produces one item at a time.
+- Represent infinite stream: Generators are excellent mediums to represent an infinite stream of data. Infinite streams cannot be stored in memory, and since generators produce only one item at a time, they can represent an infinite stream of data.
+
+```Python
+
+#List comprehension
+my_list = [x for x in range(3)]
+print(my_nums) -> [0, 1, 2]
+
+#Set comprehension
+my_set = {x * 3 for x in range(3)}
+print(my_set) -> {0, 3, 6}
+
+#Dictionary comprehension
+my_dict = {x: x * 3 for x in range(3)}
+print(my_dict) -> {0: 0, 1: 3, 2: 6}
+```
+
+```Python
+#Generator expression
+generator = (x for x in range(3))
+print(generator) -> <generator object <genexpr> at 0x7f246f89a1f0>
+
+print(next(generator)) -> 0
+print(next(generator)) -> 1
+print(next(generator)) -> 2
+print(next(generator)) -> StopIteration
+
+#We can see above that the generator expression did not produce the required result immediately. 
+#Instead, it returned a generator object, which produces items only on demand.
+```
+
+
 #### ✅ Does the order of the function definitions matter in Python? Why?
 
 It won't change the result of the program. It can help the understanding of a code if it's ordered well. The calling of the functions is what matters. -> can't call a function before it's defined
