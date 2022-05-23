@@ -97,7 +97,39 @@ Expression2: An expression which is executed if the condition is falsy (that is,
 ```Python
 <expression1> if <condition> else <expression2>
 ```
-#### What are different types of arguments in Python? !!!Function, command line???
+#### ✅ What are different types of arguments in Python?
+
+- Default arguments: assign default value with ```=```
+``` Python
+def lilo_s_function(date_of_birth= 1999)
+  pass
+```
+- Keyword arguments: assign values, disregarding argument positions
+
+``` Python
+def lilo_s_function(name= 'Lilo', age= 98, hobby= 'something')
+  pass
+  
+lilo_s_function(age= 3, hobby= 'climbing', name= 'idc')
+```
+
+- Arbitrary Arguments: *args* If you do not know how many arguments that will be passed into your function, add a * before the parameter name in the function definition. This way the function will receive a **tuple of arguments**, and can access the items accordingly.
+``` Python
+def my_function(*kids):
+  print("The youngest child is " + kids[2])
+
+my_function("Emil", "Tobias", "Linus")
+```
+
+- Arbitrary keyword Arguments: *kwargs* If you do not know how many keyword arguments that will be passed into your function, add two asterisk: ** before the parameter name in the function definition. This way the function will receive a **dictionary of arguments**, and can access the items accordingly.
+
+```Python
+def my_function(**kid):
+  print("His last name is " + kid["lname"])
+
+my_function(fname = "Tobias", lname = "Refsnes")
+```
+
 #### ✅ What is variable shadowing? (context: variable scope)
 
 Variable shadowing occurs when a variable defined in the inner scope has the same name as a variable in the outer scope.
