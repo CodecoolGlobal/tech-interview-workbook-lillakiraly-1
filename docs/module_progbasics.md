@@ -216,7 +216,36 @@ def printing():
 printing() #runs smoothly
 ```
 
-#### What does unpacking mean in Python?
+#### ✅ What does unpacking mean in Python?
+
+Unpack: tuples, lists, strings, sets(unordered), dictionaries -> iterables
+```Python
+a, b = (1, 2)
+
+print(a) -> 1
+print(b) -> 2
+
+my_dict = {'num1': 123, 'num2': 456}
+a, b = my_dict
+
+print(a) -> 'num1'
+print(b) -> 'num2'
+
+a, b = my_dict.values()
+
+print(a) -> 123
+print(b) -> 456
+
+#The * operator is known, in this context, as the tuple (or iterable) unpacking operator. It extends the unpacking functionality to allow us to collect or pack multiple values in a single variable. 
+
+a, *b, c = [1, 2, 3, 4, 5, 6]
+
+print(a) -> 1
+print(b) -> [2, 3, 4, 5]
+print(c) -> 6
+
+```
+
 #### ✅ What happens when you try to assign the result of a function which has no return statement to a variable in Python?
 
 ```None``` is assigned as a result.
