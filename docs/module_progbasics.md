@@ -12,7 +12,14 @@ Lists are used to store multiple items in a single variable. List items are orde
 
 A set is a collection which is unordered, unchangeable*, and unindexed, and doesn't allow duplicate values. While list items are ordered, changeable/mutable, and allow duplicate values.
 
-#### !!!What is the purpose and methods of a dictionary/map data structure?
+#### ✅ What is the purpose and methods of a dictionary/map data structure?
+
+The dictionary is a mutable data type. Dictionaries are indexed by keys, which can be any immutable type. Strings and numbers can always be keys. Tuples can be used as keys if they contain only strings, numbers or tuples; if a tuple contains any mutable object either directly or indirectly, it cannot be used as a key. A dictionary is a set of key-value pairs, with the requirement that the keys are unique (within one dictionary). The main operations on a dictionary are storing a value with some key and extracting the value given the key. It is also possible to delete a key-value pair with the del statement. If you store a value using a key that is already in use, the old value associated with that key is forgotten.
+
+- ```copy()```:  returns a copy of the dicitonary
+- ```items()```: returns a list containing a tuple for each key/value pair
+- ```values()```: returns a list of all the vaules in the dictionary
+- ```pop()```:  removes the element of the specified key
 
 ### Algorithms
 
@@ -274,6 +281,9 @@ A conflict arises when two separate branches have made edits to the same line in
 4. ```git push```
 
 #### What does it mean atomic commits and descriptive commit messages?
+
+
+
 #### ✅ What’s the difference between git and GitHub?
 
 Git is a distributed version control tool that can manage a development project's source code history, while GitHub is a cloud based platform built around the Git tool.
@@ -295,7 +305,12 @@ Github is a website used for hosting git repositories in the cloud (via the git 
 
 Code is clean if it can be understood easily – by everyone on the team. Clean code can be read and enhanced by a developer other than its original author. With understandability comes readability, changeability, extensibility and maintainability.
 
-#### What steps do we usually do during a clean code refactoring?
+#### ✅ What steps do we usually do during a clean code refactoring?
+
+- First we need to try and understand the code.
+- Write down ideas on how to improve the code - check for repeated code, ,dead code, bad variable names, global variables, magic numbers etc.
+- Act on the notes, check that the code works the same way at every little change/step
+- In the end, the code should be free of clutter, complexity and cleverness.
 
 ### Error handling
 
