@@ -259,8 +259,12 @@ You can record and follow every change throughout the project. Multiple people c
 - Understanding What Happened (commits)
 - Backup
 
-#### What is the difference between the working directory, the staging area and the repository in git?
+#### ✅ What is the difference between the working directory, the staging area and the repository in git?
 
+- Working directory: where files that are not handled by git. These files are also referred to as "untracked files." 
+- Staging area: where the files are, that are going to be a part of the next commit, which lets git know what changes in the file are going to occur for the next commit. 
+- Repository: contains all of a project's commits.
+![image](https://user-images.githubusercontent.com/71545633/169849503-c6b5b05a-147f-46fd-9790-e29b5c7e9be5.png)
 
 
 #### ✅ What are remote repositories in git?
