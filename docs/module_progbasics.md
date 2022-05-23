@@ -24,7 +24,16 @@ The dictionary is a mutable data type. Dictionaries are indexed by keys, which c
 ### Algorithms
 
 #### Fibonacci sequences. Write a method (or pseudo code), that generates the Fibonacci sequences.
-#### How do you find a max value in a list/array if you can’t use any built-in functions?
+#### ✅ How do you find a max value in a list/array if you can’t use any built-in functions?
+
+```Python
+def find_max(numbers: list) -> int:
+    max_num = 0
+    for i in numbers:
+        if i > max_num:
+            max_num = i
+    return max_num
+```
 #### How do you find the average of values in a list/array if you can’t use any built-in functions?
 #### What do we call an *in-place* sort?
 #### Explain an algorithm which sorts a list!
