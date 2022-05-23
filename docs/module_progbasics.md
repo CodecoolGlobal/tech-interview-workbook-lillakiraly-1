@@ -236,7 +236,8 @@ a, b = my_dict.values()
 print(a) -> 123
 print(b) -> 456
 
-#The * operator is known, in this context, as the tuple (or iterable) unpacking operator. It extends the unpacking functionality to allow us to collect or pack multiple values in a single variable. 
+#The * operator is known, in this context, as the tuple (or iterable) unpacking operator. 
+#It extends the unpacking functionality to allow us to collect or pack multiple values in a single variable. 
 
 a, *b, c = [1, 2, 3, 4, 5, 6]
 
