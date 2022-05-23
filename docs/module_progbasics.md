@@ -280,8 +280,14 @@ A conflict arises when two separate branches have made edits to the same line in
 3. ```git commit```
 4. ```git push```
 
-#### What does it mean atomic commits and descriptive commit messages?
+#### ✅ What does it mean atomic commits and descriptive commit messages?
 
+Atomic commits are what they sound like: atomic (very small). 
+![image](https://user-images.githubusercontent.com/71545633/169848054-f3b8d54a-281a-405d-af48-5c7549270e5d.png)
+
+Descriptive commit messages: When the commit messages are meaningful, concise and easy to read.
+- You should understand what you were working on, just by reading the commit message
+- Usually use present tense, like: remove unused imports, add hamburger menu for mobile ui
 
 
 #### ✅ What’s the difference between git and GitHub?
