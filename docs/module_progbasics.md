@@ -34,9 +34,28 @@ def find_max(numbers: list) -> int:
             max_num = i
     return max_num
 ```
-#### How do you find the average of values in a list/array if you can’t use any built-in functions?
-#### What do we call an *in-place* sort?
-#### Explain an algorithm which sorts a list!
+#### ✅ How do you find the average of values in a list/array if you can’t use any built-in functions?
+
+```Python
+def find_average(numbers: list) -> int:
+    number_of_list_items = len(numbers)
+    sum_of_nums = 0
+    for num in numbers:
+        sum_of_nums += num
+
+    return sum_of_nums / number_of_list_items
+```
+
+#### ✅ What do we call an *in-place* sort?
+
+Sorting a list, in-place. Meaning not giving it's sorted outcome to any other variable at all, only modifying the order of the elements within the list.
+```
+list.sort()
+```
+
+#### ✅ Explain an algorithm which sorts a list!
+
+A bubble-sort algorithm iterates through the given list, and compares each element's value to the next element's value. Given the list is to be sorted in ascending order, the algorithm switches the elements' places every time an element's value is greater than the value of the next element.
 
 ### Programming paradigms - procedural
 
