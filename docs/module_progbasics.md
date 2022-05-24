@@ -25,7 +25,7 @@ The dictionary is a mutable data type. Dictionaries are indexed by keys, which c
 
 #### ✅ Fibonacci sequences. Write a method (or pseudo code), that generates the Fibonacci sequences.
 ```Python
-def create_fibonacci_sequence(n: int):
+def create_fibonacci_sequence(n: int) -> int:
     if n < 0:
         print('Invalid input.')
         return
