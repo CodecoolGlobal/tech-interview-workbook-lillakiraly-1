@@ -23,7 +23,19 @@ The dictionary is a mutable data type. Dictionaries are indexed by keys, which c
 
 ### Algorithms
 
-#### Fibonacci sequences. Write a method (or pseudo code), that generates the Fibonacci sequences.
+#### ✅ Fibonacci sequences. Write a method (or pseudo code), that generates the Fibonacci sequences.
+```Python
+def create_fibonacci_sequence(n: int):
+    if n < 0:
+        print('Invalid input.')
+        return
+    elif n <= 1:
+        return n
+    
+    else:
+        return create_fibonacci_sequence(n-1) + create_fibonacci_sequence(n-2)
+```
+
 #### ✅ How do you find a max value in a list/array if you can’t use any built-in functions?
 
 ```Python
