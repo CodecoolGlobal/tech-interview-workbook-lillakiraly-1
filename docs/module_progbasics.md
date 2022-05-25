@@ -19,7 +19,7 @@ The dictionary is a mutable data type. Dictionaries are indexed by keys, which c
 
 - ```copy()```:  returns a copy of the dicitonary
 - ```items()```: returns a list containing a tuple for each key/value pair
-- ```values()```: returns a list of all the vaules in the dictionary
+- ```values()```: returns a list of all the values in the dictionary
 - ```pop()```:  removes the element of the specified key
 
 ### Algorithms
