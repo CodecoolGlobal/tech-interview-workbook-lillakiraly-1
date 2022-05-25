@@ -200,6 +200,7 @@ LEGB stands for:
 - Enclosed: Defined inside enclosing functions (nested functions concept).
 - Global: Defined at the uppermost level.
 - Built-in: Reserved names in Python built-in modules.
+
 LEGB is the hierarchy in which python looks for variables (and functions as well).
 
 Variables have different lifetimes, depending on their definition. E.g. a local variable exists as long as the function (in which it is defined) is being executed.
