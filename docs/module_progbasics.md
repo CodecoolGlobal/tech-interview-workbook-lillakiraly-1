@@ -6,7 +6,12 @@
 
 #### ✅ What is the purpose of a list (array in some programming languages) data structure? Name some methods of it!
 
-Lists are used to store multiple items in a single variable. List items are ordered, changeable/mutable, and allow duplicate values. List items are indexed, the first item has index [0]. List methods: append() - adds an element at the end of the list, pop() - removes an element from the end of the list or from the specified index, reverse() - reverses the sorting order of the list
+Lists are used to store multiple items in a single variable. List items are ordered, changeable/mutable, and allow duplicate values. List items are indexed, the first item has index [0]. 
+
+List methods: 
+- append() - adds an element at the end of the list, 
+- pop() - removes an element from the end of the list or from the specified index, 
+- reverse() - reverses the sorting order of the list
 
 #### ✅ What is the difference between a list/array and a set?
 
@@ -191,10 +196,10 @@ If we add to the list while iterating over it, it could result in an infinite lo
 
 LEGB stands for:
 
-Local: Defined inside function/class.
-Enclosed: Defined inside enclosing functions (nested functions concept).
-Global: Defined at the uppermost level.
-Built-in: Reserved names in Python built-in modules.
+- Local: Defined inside function/class.
+- Enclosed: Defined inside enclosing functions (nested functions concept).
+- Global: Defined at the uppermost level.
+- Built-in: Reserved names in Python built-in modules.
 LEGB is the hierarchy in which python looks for variables (and functions as well).
 
 Variables have different lifetimes, depending on their definition. E.g. a local variable exists as long as the function (in which it is defined) is being executed.
@@ -233,9 +238,9 @@ Membership operators are operators used to validate the membership of a value.
 
 It tests for membership in a sequence (such as strings, lists, or tuples).
 
-in: Evaluates to True if the specified object exists in the specified sequence, evaluates to False otherwise.
+- in: Evaluates to True if the specified object exists in the specified sequence, evaluates to False otherwise.
 
-not in: Reverse of the in operator.
+- not in: Reverse of the in operator.
 
 #### ✅ What does the + operator mean when used with strings in Python?
 
@@ -266,13 +271,10 @@ print(f'Usher sings "{str1}" {num} times.')
 
 #### ✅ Name 4 iterable types in Python!
 
-String
-
-List
-
-Tuple
-
-Dictionary
+- String
+- List
+- Tuple
+- Dictionary
 
 
 #### ✅ What is the difference between list/set/dictionary comprehension and a generator expression in Python?
